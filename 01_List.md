@@ -116,7 +116,7 @@ even_numbers = [x for x in range(10) if x % 2 == 0]
 do it the traditional way:
 
 ```
-words ["hello", "world", "python"]
+words = ["hello", "world", "python"]
 #convert all to upper case
 upper_words = [word.upper() for word in words]
 ```
