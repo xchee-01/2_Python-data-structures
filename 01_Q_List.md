@@ -77,8 +77,8 @@
    <details>
    <summary>Click to view answer</summary>
       
-    1. chemo_weeks = timeline[::3]  
-    2. rest_weeks = timeline[1::3]
+    1. chemo_weeks = timeline[:6:2]    
+    2. rest_weeks = timeline[1:7:2]  
     3. reverse_timeline = timeline[::-1]
     4. alternate_weeks = timeline[::2]
        
