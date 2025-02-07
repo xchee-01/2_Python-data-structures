@@ -113,13 +113,13 @@
    ```
    genes = ["BRCA1", "TP53", "BRCA2", "EGFR", "KRAS", "BRAF", "PTEN"]
    A) ["BRCA1", "BRCA2", "KRAS"]
-   B) ["PTEN", "BRAF", "EGFR", "TP53"]
+   B) ["PTEN", "KRAS", "BRCA2", "BRCA1"]
    ```
 
    <details>
    <summary>Click to view answer</summary>
       
-    1. result_a = genes[::3]
+    1. result_a = genes[:5:2]
     2. result_b = genes[::-2]
        
    </details>
