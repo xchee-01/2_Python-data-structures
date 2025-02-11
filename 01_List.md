@@ -113,8 +113,6 @@ even_numbers = [x for x in range(10) if x % 2 == 0]
 
 3. Strings operations
    
-do it the traditional way:
-
 ```
 words = ["hello", "world", "python"]
 #convert all to upper case
